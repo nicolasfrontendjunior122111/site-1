@@ -1,0 +1,186 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagem-logo {
+  width: 77px;
+  display: flex;
+  align-items: center;
+  margin-left: 17px;
+}
+
+nav {
+  background-color: rgba(16, 17, 17, 0.903);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: color 0.5s ease;
+}
+
+li {
+  list-style: none;
+  margin: 22px;
+  padding: 20px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+.btn-entrar {
+  background-color: rgb(59, 168, 0);
+  padding: 22px;
+  border-radius: 20px;
+  transition: color 0.5s ease;
+}
+
+:hover.btn-entrar {
+  color: rgb(107, 105, 105);
+}
+
+ul li a:hover {
+  color: rgb(107, 105, 105);
+
+  transition: all 0.5s ease;
+}
+
+ul li a:not(:hover) {
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.imagem-logo :not(:hover) {
+  padding: 1px;
+  transition: all 0.4s ease;
+}
+
+.imagem-logo :hover {
+  padding: 8px;
+  transition: all 0.7s ease;
+}
+
+header h1 {
+  position: absolute;
+  left: 640px;
+  top: 250px;
+  color: white;
+  font-size: 40px;
+}
+
+header p {
+  position: absolute;
+  left: 275px;
+  top: 370px;
+  color: white;
+  font-size: 40px;
+}
+
+header h1:hover {
+  font-size: 52px;
+  left: 630px;
+  transition: all 0.8s ease;
+}
+
+header h1:not(:hover) {
+  font-size: 40px;
+  transition: all 0.8s ease;
+}
+
+header p:hover {
+  font-size: 45px;
+  position: absolute;
+left: 210px;
+  transition: all 0.8s ease;
+}
+
+header p:not(:hover) {
+  font-size: 40px;
+  transition: all 0.8s ease;
+}
+
+.serviços-container {
+  text-align: center;
+  margin-top: 30px;
+
+  font-size: 20px;
+
+}
+
+.serviços-container ul h3{
+
+margin-bottom: 30px;
+
+
+}
+
+.serviços-container li i{
+margin-bottom: 30px;
+
+  
+}
+
+.fa-shield-alt {
+  color: #2cc76a;
+  font-size: 50px;
+ 
+}
+
+.fa-rocket {
+  color: #ef3f29;
+  font-size: 50px;
+}
+
+.fa-comments {
+  color: #ef8f29;
+font-size: 50px;
+}
+.fa-shield-alt:hover{
+  font-size: 60px;
+  margin-bottom: 20px;
+  transition: all 0.8s ease;
+}
+
+.fa-shield-alt:not(:hover)
+
+{  font-size: 50px;
+ 
+  transition: all 0.8s ease;
+
+}
+
+.fa-rocket:hover{
+  font-size: 60px;
+  margin-bottom: 20px;
+  transition: all 0.8s ease;
+
+}
+
+
+.fa-rocket:not(:hover){
+  font-size: 50px;
+ 
+  transition: all 0.8s ease;
+}
+
+
+.fa-comments:hover{
+  font-size: 60px;
+margin-bottom: 10px;
+  transition: all 0.8s ease;
+}
+
+.fa-comments:not(:hover){
+  font-size: 50px;
+  margin-bottom: 20px;
+  transition: all 0.8s ease;
+}
